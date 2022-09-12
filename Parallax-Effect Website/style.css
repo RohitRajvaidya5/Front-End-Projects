@@ -1,0 +1,78 @@
+/* Let's add css in the body  */
+/* By adding html tag the effect is applied all website  */
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* let's pass background image for first section */
+.pimg1{
+    background-image: url(Images/Image\ \(1\).jpg);
+    min-height: 100%;
+}
+
+/* for image2 */
+.pimg2{
+    background-image: url(Images/Image\ \(2\).jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(Images/Image\ \(3\).jpg);
+    min-height: 400px;
+}
+
+
+.pimg1,.pimg2,.pimg3{
+
+    /* By This image will not move */
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Stay backgrounds steady and let text and all objects scroll or move  */
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    /* background: grey; */
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background: rgba(56, 55, 55, 0.781);
+    color: white;
+    padding: 20px;
+}
+
+.section h2{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.section-light{
+    background-color: white;
+    color: grey;
+}
+
+.section-dark{
+    background-color: rgb(59, 58, 58);
+    color: whitesmoke;
+}
